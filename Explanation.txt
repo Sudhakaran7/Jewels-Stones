@@ -1,0 +1,48 @@
+You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.  
+You want to know how many of the stones you have are also jewels.
+The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so "a" is considered a different type of stone from "A".
+
+Input Description:
+Two strings, J and S as input.
+
+Output Description:
+Print the number of stones you have are also jewels.
+
+Sample Input:
+aAhh aaabA
+
+Sample Output:
+4
+
+Explanation:
+The stomes which is also jewels are 'a' and 'A'.
+
+Sample Input:
+Guvi uUvIg
+
+Sample Output:
+2
+
+Sample Input:
+QqqqquTrd rQiQdFFgdq
+
+Sample Output:
+6
+
+Sample Input:
+lopiu gtrfe
+
+Sample Output:
+0
+
+Sample Input:
+HgIhhbd dbghiop
+
+Sample Output:
+4
+
+Sample Input:
+uyrRRb bRu
+
+Sample Output:
+3
